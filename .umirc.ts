@@ -1,5 +1,5 @@
 import { defineConfig } from 'dumi';
-const repo = 'react-uni-comps';
+const repo = 'docs-demo';
 export default defineConfig({
   title: 'docs-demo',
   favicon:
