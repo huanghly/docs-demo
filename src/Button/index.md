@@ -1,11 +1,8 @@
----
-title: Button 按钮
-order: 0
-mobile: true
-group:
-  title: 基础组件
-  order: 0
-  path: base
----
+```tsx
+import React from 'react';
+import { Button } from 'docs-demo';
 
-<code src="./demos/index.tsx"></code> <API src="./index.tsx"></API>
+export default () => <Button className="btn-primary">按钮</Button>;
+```
+
+<!-- <code src="./demos/index.tsx"></code> <API src="./index.tsx"></API> -->

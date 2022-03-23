@@ -10,7 +10,7 @@ export default defineConfig({
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
   resolve: {
-    includes: ['mdx'],
+    includes: ['mds', 'src'],
   },
   // more config: https://d.umijs.org/config
 });
